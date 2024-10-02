@@ -3,6 +3,7 @@ import { useQuery, useMutation, useQueryClient } from 'react-query';
 import { Button, Table, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
 import { User, getUsers, deleteUser } from '../services/UserService';
 
+
 interface UserTableProps {
     onEdit: (user: User) => void;
 }
